@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
   
   body {
@@ -37,6 +38,10 @@
     margin-top: 8px;
     vertical-align: middle;
   }
+  .column video {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
   
   /* Style the buttons */
   .btn {
@@ -56,4 +61,35 @@
   .btn.active {
     background-color: rgb(78, 54, 14);
     color: rgb(155, 155, 0);
+  }
+
+  #to-top{
+    background-color: rgba(231, 194, 146, 0.6);
+    color: rgba(0, 0, 0, 0.6);
+    position: sticky;
+    top: 95%;
+    left: 50%;
+    width: fit-content;
+    height:fit-content;
+    padding: 5px;
+    border-radius: 20px;
+    z-index: 1;
+  }
+
+  #to-top:hover{
+  background-color: rgb(250, 226, 194);
+  color: rgb(0, 0, 0);
+  } 
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  a:active{
+    color: black;
+  }
+
+  a:visited{
+    color: black;
   }

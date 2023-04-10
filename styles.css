@@ -93,3 +93,19 @@
   a:visited{
     color: black;
   }
+
+  @media all and (max-width: 450px){
+    .row {
+      padding: 0 2px;
+    }
+    
+    .column {
+      padding: 0 2px;
+    }
+    .column img {
+      margin-top: 4px;
+    }
+    .column video {
+      margin-top: 4px;
+    }
+  }
